@@ -35,9 +35,8 @@
   background: rgb(219, 159, 204);
  }
 
+ 
  .activeCard {
-  color: brown;
   color: white;
   background: rgb(195, 205, 50);
- } 
- } 
+ }
