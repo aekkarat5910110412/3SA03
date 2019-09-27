@@ -28,12 +28,12 @@
   text-align: center;
   width: 3em;
   font-size: 3.5em;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   box-shadow: 0 6px 10px 0 rgba(141, 67, 24, 0.911);
   margin: 1em;
   user-select: none;
+  color: rgb(109, 17, 63);
+  background: rgb(219, 159, 204);
  }
- 
 
  .activeCard {
   color: brown;
