@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import WordCard from './WordCard';
-const word = "Hello";
-const word = "support";
+const word = "WELCOME";
 const word = "Goodsupport";
 
 
@@ -11,6 +10,7 @@ class App extends Component {
     return (
       <div className="App">
           
+
           <WordCard value={word}/>
       </div>
     );
