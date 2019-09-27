@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
-import CharacterCard from './CharacterCard';
 import WordCard from './WordCard';
 const word = "Hello";
 const word = "support";
+const word = "Goodsupport";
 
 
 class App extends Component {
   render() {
     return (
-      <div >
       <div className="App">
-
           
           <WordCard value={word}/>
       </div>
     );
+  }
+}
+export default App;
