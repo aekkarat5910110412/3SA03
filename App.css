@@ -20,7 +20,7 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rota
-
+    
     te(360deg); }
 }
 .card {
@@ -28,14 +28,16 @@
   text-align: center;
   width: 3em;
   font-size: 2em;
+  font-size: 3.5em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin: 1em;
   user-select: none;
  }
 
+ 
  .activeCard {
-  color: green; 
-  background: yellow;
-  color: rgb(83, 143, 212);
-  background: rgb(236, 38, 12);
+  color: red;
+  background: pink;
+  color: brown;
+  background: rgb(195, 205, 50);
  } 
