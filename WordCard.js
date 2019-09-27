@@ -31,14 +31,18 @@ export default class WordCard extends Component {
     }
     render(){	    
         return(	       
-            <div className="App">	            
             <div className="App">	
 
+            <div className="App">	
                 <p>Hint : The first program in C </p>
                 {
+            <h3>จงเรียงประโยคให้ถูกต้อง</h3>
+                {  
                 Array.from(this.state.chars).map((c, i) => <CharacterCard value = {c} key = {i} 
                 attempt={this.state.attempt}
-@@ -43,7 +43,9 @@ export default class WordCard extends Component {
+                activationHandler = {this.activationHandler} />
+                )
+                }
                <p>Round : {this.state.attempt}</p>
                <p>Hint : The first program in C </p>
                 <p>{this.state.completed? "You Win !!" : ""}</p>
@@ -47,4 +51,4 @@ export default class WordCard extends Component {
             );	       
 
     } 
-} 
+}
